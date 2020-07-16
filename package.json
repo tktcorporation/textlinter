@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "textlint -f pretty-error docs/",
-    "lint:fix": "textlint --fix pretty-error docs/"
+    "lint:fix": "textlint --fix pretty-error docs/",
+    "lint:readme": "textlint -f pretty-error README.md",
+    "lint:readme:fix": "textlint --fix pretty-error README.md"
   },
   "devDependencies": {
     "textlint": "^11.6.3",
