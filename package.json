@@ -1,0 +1,16 @@
+{
+  "name": "textlinter",
+  "version": "1.0.0",
+  "author": "tkt <tktcorporation.go@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "textlint -f pretty-error docs/",
+    "lint:fix": "textlint --fix pretty-error docs/"
+  },
+  "devDependencies": {
+    "textlint": "^11.6.3",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
